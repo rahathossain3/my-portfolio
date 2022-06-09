@@ -1,4 +1,5 @@
 import React from 'react';
+import Projects from '../Projects/Projects';
 import Myself from './Myself/Myself';
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <h1>This is Home</h1>
             <Myself></Myself>
+            <Projects></Projects>
         </div>
     );
 };
