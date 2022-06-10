@@ -16,7 +16,7 @@ const Footer = () => {
             <div>
                 <Link to='/home'>
                     <span className=' text-white px-0'>Copyright ©</span>
-                    <span>Md.Rahat Photography</span>
+                    <span>Md.Rahat Hossain Khan Imon</span>
                 </Link>
             </div>
         </footer>
