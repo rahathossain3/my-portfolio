@@ -4,6 +4,7 @@
     align-items: center;
     padding: 10px 10px;
     color: white;
+    border-top: 2px double gray;
 }
 
 .page-footer a {
@@ -24,4 +25,26 @@
 
 .page-footer span:hover {
     color: white;
+}
+
+/* ---------- for mobile- -------------- max-width: 768px------ */
+
+@media screen and (max-width: 768px) {
+    .page-footer {
+        flex-direction: column;
+        border-top: 2px double rgb(10, 69, 179);
+
+    }
+}
+
+
+
+/* ---------- for tablet- -------------- max-width: 991px------ */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .page-footer {
+        flex-direction: column;
+        border-top: 2px double rgb(3, 117, 12);
+
+    }
 }

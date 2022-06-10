@@ -6,10 +6,9 @@ import Resume from '../../../Files/Md.Rahat_Hossain_Khan_Imon_Resume.pdf';
 
 const Header = () => {
     return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <div className='sticky-top '>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='line'>
                 <Container>
-
                     <Navbar.Brand as={Link} to="/home" >
                         <span className='site-title' id="">Md. Rahat Hossain Khan Imon</span>
                     </Navbar.Brand>
@@ -21,8 +20,10 @@ const Header = () => {
                         </Nav>
 
                         <Nav >
-                            <Nav.Link id='home/project' className='header-links fs-5 pe-lg-3'>Projects</Nav.Link>
+                            <Nav.Link as={Link} to='/about' className='header-links fs-5 pe-lg-3'>About </Nav.Link>
+                            <Nav.Link as={Link} to='/projects' className='header-links fs-5 pe-lg-3'>Projects</Nav.Link>
                             <Nav.Link as={Link} to="/contact" className='header-links fs-5 pe-lg-3'>Contact</Nav.Link>
+                            <Nav.Link as={Link} to="/" className='header-links fs-5 pe-lg-3'>Blogs</Nav.Link>
 
 
                             <Nav.Link as={Link} to={Resume} target="_blank" download >
@@ -32,6 +33,7 @@ const Header = () => {
                         </Nav>
 
                     </Navbar.Collapse>
+
                 </Container>
             </Navbar>
         </div >

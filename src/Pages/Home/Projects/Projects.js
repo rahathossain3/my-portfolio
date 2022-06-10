@@ -70,8 +70,8 @@ const Projects = () => {
 
     // ---------------------------------------
     return (
-        <div className=' p-lg-5 p-md-4 p-sm-2 pt-3 bg-black'>
-            <div className='left-border text-left ps-2 mb-5 text-light'>
+        <div id='projects' className=' container-fluid p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-3 bg-black'>
+            <div className='left-border text-left ps-2 mb-5 mt-3 text-light'>
                 <h1 >
                     <span className='title'>CREATIVE</span> WORKS
                 </h1>
@@ -83,15 +83,15 @@ const Projects = () => {
 
                 {
                     projects.map(project => <>
-                        <Card className=' rounded-3 align-items-center shadow border-success'>
-                            <Card.Img variant="top" className='project-img' src={project.siteImage} />
+                        <Card key={project.id} className=' rounded-3 align-items-center shadow border-success' title={project.projectName}>
+                            <Card.Img variant="top" alt={project.projectName} className='project-img' src={project.siteImage} />
                             <Card.Body>
                                 <Card.Title>
                                     <span className='fs-4 project-title'> {project.projectName} </span>
                                     <span>({project.projectNickName}) </span>
                                 </Card.Title>
                                 <Card.Text>
-                                    <div className='d-flex justify-content-between py-4 px-5 my-2'>
+                                    <div className='d-flex justify-content-between pt-4 px-5 my-2'>
                                         <div>
                                             <a href={project.liveWebsiteLink} target="blank">
                                                 <button className='btn btn-outline-dark'> Live site</button>
@@ -128,8 +128,10 @@ const Projects = () => {
                                 </Card.Text>
                             </Card.Body>
 
-                            <Card.Footer>
-                                {/* <small className="text-muted">Last updated 3 mins ago</small> */}
+                            <Card.Footer className='card-footer '>
+                                <a href={project.liveWebsiteLink} target="blank">
+                                    <button className='btn btn-outline-dark w-75 '> View Details</button>
+                                </a>
                             </Card.Footer>
                         </Card>
                     </>)

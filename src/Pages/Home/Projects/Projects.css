@@ -20,9 +20,36 @@
 }
 
 .project-img {
-
     margin: 5px;
     margin-right: 5px;
     margin-left: 5px;
     border: 4px double green;
+}
+
+.card-footer {
+    width: 100% !important;
+    text-align: center;
+}
+
+/* ---------- for mobile- -------------- max-width: 768px------ */
+
+@media screen and (max-width: 768px) {
+    .project-info {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 23px;
+    }
+}
+
+
+
+/* ---------- for tablet- -------------- max-width: 991px------ */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    .project-info {
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 26px;
+    }
 }

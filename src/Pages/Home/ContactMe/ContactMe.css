@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.duel-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.submit-hover:hover {
+    font-weight: 600;
+    color: black;
+    background-color: yellowgreen;
+}
+
+.item {
+    width: 50%;
+
+}
+
+/* ---------- for mobile- -------------- max-width: 768px------ */
+
+@media screen and (max-width: 768px) {
+    .duel-item {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 95%;
+    }
+}
+
+
+
+/* ---------- for tablet- -------------- max-width: 991px------ */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    .duel-item {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 90%;
+    }
+}

@@ -14,6 +14,9 @@
     color: orange !important;
 }
 
+.line {
+    border-bottom: 2px solid rgb(75, 61, 94);
+}
 
 
 /* ---------- for mobile- -------------- max-width: 768px------ */
