@@ -21,12 +21,12 @@ const Header = () => {
                         </Nav>
 
                         <Nav >
-                            <Nav.Link as={Link} to="/manageitems" className='header-links fs-5'>Projects</Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className='header-links fs-5'>Contact</Nav.Link>
+                            <Nav.Link id='home/project' className='header-links fs-5 pe-lg-3'>Projects</Nav.Link>
+                            <Nav.Link as={Link} to="/contact" className='header-links fs-5 pe-lg-3'>Contact</Nav.Link>
 
 
                             <Nav.Link as={Link} to={Resume} target="_blank" download >
-                                <span className='fs-5 header-links'>Download Resume</span>
+                                <span className=' fs-5 header-links pe-lg-3 '> Download Resume </span>
                             </Nav.Link>
 
                         </Nav>

@@ -1,12 +1,13 @@
 import React from 'react';
 import Projects from '../Projects/Projects';
-import Myself from './Myself/Myself';
+import Banner from './Banner/Banner';
+// import Myself from './Myself/Myself';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is Home</h1>
-            <Myself></Myself>
+            <Banner></Banner>
+            {/* <Myself></Myself> */}
             <Projects></Projects>
         </div>
     );

@@ -1,4 +1,5 @@
 .site-title {
+    font-size: 24px;
     font-weight: 700;
     color: orange;
 }
@@ -6,11 +7,35 @@
 .site-title:hover {
     font-weight: 700;
     color: whitesmoke;
+}
+
+
+.header-links:hover {
+    color: orange !important;
+}
+
+
+
+/* ---------- for mobile- -------------- max-width: 768px------ */
+
+@media screen and (max-width: 768px) {
+
+    .site-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
 
 }
 
 
 
-.header-links:hover {
-    color: orange !important;
+/* ---------- for tablet- -------------- max-width: 991px------ */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    .site-title {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
 }
