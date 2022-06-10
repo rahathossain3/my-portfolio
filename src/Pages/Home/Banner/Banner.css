@@ -23,3 +23,40 @@
     padding: 5px;
 
 }
+
+.mouse-hover:hover {
+    color: orangered !important;
+}
+
+.btn-hover:hover {
+    background-color: white;
+    color: black !important;
+    font-weight: 600;
+}
+
+
+/* ---------- for mobile- -------------- max-width: 768px------ */
+
+@media screen and (max-width: 768px) {
+
+    .my-img {
+        width: 60%;
+        border-radius: 50%;
+        margin-top: 15px;
+    }
+
+}
+
+
+
+/* ---------- for tablet- -------------- max-width: 991px------ */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    .my-img {
+        width: 40%;
+        border-radius: 50%;
+        margin-top: 15px;
+    }
+
+}
