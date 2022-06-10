@@ -1,4 +1,6 @@
 ### usings
 * react- router
 * Bootstrap
-* react-tsparticles
+<!-- * react-tsparticles -->
+* react-simple-typewriter
+* 

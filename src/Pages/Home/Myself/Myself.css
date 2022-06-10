@@ -7,7 +7,7 @@
 
 .outline {
     border: 5px double goldenrod;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 25px;
 }
 
