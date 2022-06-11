@@ -14,7 +14,7 @@ const Blogs = () => {
 
                 <h1 className='text-light my-5 py-5'>Blogs are
                 </h1>
-                <h1 className='title my-5 py-5'>Coming Soon <span> {text}</span>
+                <h1 className='title my-5 py-5'>Coming Soon <span> {text}|</span>
                 </h1>
 
             </div>
