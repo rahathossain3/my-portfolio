@@ -70,7 +70,7 @@ const Projects = () => {
 
     // ---------------------------------------
     return (
-        <div id='projects' className=' container-fluid p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-3 bg-black'>
+        <div id='projects' className=' container-fluid p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-5 bg-black'>
             <div className='left-border text-left ps-2 mb-5 mt-3 text-light'>
                 <h1 >
                     <span className='title'>CREATIVE</span> WORKS
@@ -82,7 +82,7 @@ const Projects = () => {
             <div id='project' className='project-info'>
 
                 {
-                    projects.map(project => <>
+                    projects.map(project =>
                         <Card key={project.id} className=' rounded-3 align-items-center shadow border-success' title={project.projectName}>
                             <Card.Img variant="top" alt={project.projectName} className='project-img' src={project.siteImage} />
                             <Card.Body>
@@ -133,8 +133,7 @@ const Projects = () => {
                                     <button className='btn btn-outline-dark w-75 '> View Details</button>
                                 </a>
                             </Card.Footer>
-                        </Card>
-                    </>)
+                        </Card>)
                 }
             </div>
 

@@ -21,7 +21,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className='container-fluid text-light p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-3 bg-dark'>
+        <div id='contact' className='container-fluid text-light p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-5 bg-dark' >
 
             <div className='left-border text-left ps-2 mb-3 mt-3'>
                 <h1 >

@@ -11,7 +11,7 @@ const Myself = () => {
     })
 
     return (
-        <div className='container-fluid text-light p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-3 bg-dark'>
+        <div id='about' className='container-fluid text-light p-3 p-lg-5 p-3 p-md-4 p-sm-2 pt-5 pb-2 bg-dark'>
 
             <div className='left-border text-left ps-2 mb-5 mt-3'>
                 <h1 >

@@ -1,7 +1,9 @@
 #banner {
+    background: black;
     background-image: url(http://www.onextrapixel.com/wp-content/uploads/2016/07/2-ParticlesRandomMovinginCanvas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .title {

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import Resume from '../../../Files/Md.Rahat_Hossain_Khan_Imon_Resume.pdf';
 
 const Header = () => {
     return (
-        <div className='sticky-top '>
+        <div className='sticky-top'>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='line'>
                 <Container>
                     <Navbar.Brand as={Link} to="/home" >
@@ -20,10 +20,10 @@ const Header = () => {
                         </Nav>
 
                         <Nav >
-                            <Nav.Link as={Link} to='/about' className='header-links fs-5 pe-lg-3'>About </Nav.Link>
-                            <Nav.Link as={Link} to='/projects' className='header-links fs-5 pe-lg-3'>Projects</Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className='header-links fs-5 pe-lg-3'>Contact</Nav.Link>
-                            <Nav.Link as={Link} to="/" className='header-links fs-5 pe-lg-3'>Blogs</Nav.Link>
+                            <Nav.Link href='#about' className='header-links fs-5 pe-lg-3'>About </Nav.Link>
+                            <Nav.Link href='#projects' className='header-links fs-5 pe-lg-3'>Projects</Nav.Link>
+                            <Nav.Link href="#contact" className='header-links fs-5 pe-lg-3'>Contact</Nav.Link>
+                            <Nav.Link as={Link} to="#banner" className='header-links fs-5 pe-lg-3'>Blogs</Nav.Link>
 
 
                             <Nav.Link as={Link} to={Resume} target="_blank" download >
