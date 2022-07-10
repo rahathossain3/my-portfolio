@@ -35,7 +35,7 @@ const Myself = () => {
 
                     <p className='my-4 fs-6 mx-lg-5 mt-3 pe-lg-4 mx-sm-3 text-align-justify'>
 
-                        Assalamu alaikum. Welcome to my LinkedIn Profile.! My name is Md. Rahat Hossain Khan Imon. To gain my confidence and fame using my potential in this position, and express my innovative creative skills for self and company growth. I’m a hardworking and quick learner. I believe hard work is the only way to success. I love to learn new technology and try to improve myself with technology.
+                        Assalamu alaikum. Welcome to my Portfolio .! My name is Md. Rahat Hossain Khan Imon. To gain my confidence and fame using my potential in this position, and express my innovative creative skills for self and company growth. I’m a hardworking and quick learner. I believe hard work is the only way to success. I love to learn new technology and try to improve myself with technology.
                     </p>
 
                 </div>
