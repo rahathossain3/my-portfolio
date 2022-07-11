@@ -1,7 +1,8 @@
 ### usings
 * react- router
 * Bootstrap
-<!-- * react-tsparticles -->
+* react-tsparticles
+* tsparticles
 * react-simple-typewriter
 * @emailjs/browser
 * 
